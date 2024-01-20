@@ -10,3 +10,9 @@ The system will provide the following features:
 *Performance Metrics: The system will calculate key portfolio performance metrics, including total portfolio value, total gain/loss, percentage gain/loss, etc.
 
 *Visualization: Users can visualize their portfolio's performance and check historical performance trends using interactive charts.
+
+DATA SOURCE
+
+For real-time stock prices and historical data, the system will utilize financial APIs (e.g., Alpha Vantage or Yahoo Finance) to fetch stock information. We'll rely on live data from these APIs. Other data will be users’ input.
+
+*Yahoo Finance API: use the “yfinance” package in Python
